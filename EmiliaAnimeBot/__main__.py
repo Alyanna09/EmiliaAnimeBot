@@ -54,10 +54,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey There! [👩‍💼](https://telegra.ph/file/e686a77cc5a94c1ce4117.jpg) 
-My name is *Rimuru*
-I am an Anime Themed group management bot.
-You can find my list of available commands with *🔐Commands*   
+Heyo Pantek! [ꕥ](https://telegra.ph/file/e686a77cc5a94c1ce4117.jpg) 
+Ni bot namanya *Rimuru*
+Ownernya ini @hanyafatur.
+Ketik tutorial kalau belum paham ya Pantek.   
 """
 
 buttons = [
