@@ -63,29 +63,29 @@ You can find my list of available commands with *🔐Commands*
 buttons = [
     [
         InlineKeyboardButton(
-            text="😍𝗦𝗨𝗠𝗠𝗢𝗡 𝗠𝗘😍",url="t.me/RimuruRobotBot?startgroup=true"
+            text="🆃🅰🅼🅱🅰🅷🅺🅰🅽",url="t.me/RimuruRobotBot?startgroup=true"
         ),
     ],
     [
         InlineKeyboardButton(
-          text="🥰𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦🥰", callback_data="help_back"
+          text="🆃🆄🆃🅾🆁🅸🅰🅻", callback_data="help_back"
         ),
     ],
    
          
     [
        InlineKeyboardButton(
-           text="💖𝗦𝗨𝗣𝗣𝗢𝗥𝗧💖", url="https://t.me/Rimurusupport"
+           text="🆂🆄🅿🅿🅾🆁🆃", url="https://t.me/Rimurusupport"
          ),
     ],
         [
        InlineKeyboardButton(
-           text="💝𝗢𝗪𝗡𝗘𝗥💝", url="https://t.me/hanyafatur"
+           text="🅾🆆🅽🅴🆁", url="https://t.me/hanyafatur"
          ),
      ],
      [
         InlineKeyboardButton(
-          text="💖𝗨𝗣𝗗𝗔𝗧𝗘𝗦💖", url="https://t.me/Rimuruupdates"
+          text="🆄🅿🅳🅰🆃🅴🆂", url="https://t.me/Rimuruupdates"
         ),
        
      ],
@@ -217,13 +217,13 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="💞𝗦𝗨𝗣𝗣𝗢𝗥𝗧💞", url="https://t.me/Rimurusupport")
+                  InlineKeyboardButton(text="🅶🆁🆄🅱🅽🆈🅰 🅰🅽🅹🅴🅽🅶", url="https://t.me/Rimurusupport")
                   ],
                   [
-                  InlineKeyboardButton(text="💞PANTEk💞", url="https://telegra.ph/file/e686a77cc5a94c1ce4117.jpg")
+                  InlineKeyboardButton(text="🅹🅰🅽 🅳🅸 🆃🅴🅺🅰🅽 🅱🅾🅳🅾🅷", url="https://telegra.ph/file/e686a77cc5a94c1ce4117.jpg")
                   ],
                   [
-                  InlineKeyboardButton(text="💘𝗢𝗪𝗡𝗘𝗥💘", url="https://t.me/hanyafatur")
+                  InlineKeyboardButton(text="🅾🆆🅽🅴🆁🅽🆈🅰", url="https://t.me/hanyafatur")
                   ]
                 ]
             ),
@@ -390,7 +390,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..👩‍💼 I'm *Yuuki*
+            text=""" Hi..👩‍💼 I'm *Rimuru*
                  \nMy Source Code Can be Found at Github at this [JANGAN](https://telegra.ph/file/e686a77cc5a94c1ce4117.jpg""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -691,7 +691,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yuuki is Back Online💼")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Jreng jrengjreng raitoappu")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
