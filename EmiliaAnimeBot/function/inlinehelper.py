@@ -70,7 +70,7 @@ async def inline_help_func(__HELP__):
             title="Inline Commands",
             description="Help Related To Inline Usage.",
             input_message_content=InputTextMessageContent(__HELP__),
-            thumb_url="https://telegra.ph/file/109e8fe98acc6d262b7c6.jpg",
+            thumb_url="https://telegra.ph/file/e686a77cc5a94c1ce4117.jpg",
             reply_markup=buttons,
         )
     ]
@@ -83,12 +83,12 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     # ubot_state = 'Dead' if not await app2.get_me() else 'Alive'
     buttons.add(
-        InlineKeyboardButton("Main Bot", url="https://t.me/EmiliaAnimeRobot"),
+        InlineKeyboardButton("Main Bot", url="https://t.me/RimuruRobotBot"),
         InlineKeyboardButton("Go Inline!", switch_inline_query_current_chat=""),
     )
 
     msg = f"""
-**[Emilia✨](https://github.com/IzumiCypherX/EmiliaAnimeBot):**
+**[Emilia✨](https://github.com/Alyanna09/EmiliaAnimeBot):**
 
 **MainBot:** `{bot_state}`
 
