@@ -54,8 +54,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey There! [👩‍💼](https://telegra.ph/file/d62ddd0f18b333b6aafff.jpg) 
-My name is *Yuuki*
+Hey There! [👩‍💼](https://telegra.ph/file/e686a77cc5a94c1ce4117.jpg) 
+My name is *Rimuru*
 I am an Anime Themed group management bot.
 You can find my list of available commands with *🔐Commands*   
 """
@@ -63,7 +63,7 @@ You can find my list of available commands with *🔐Commands*
 buttons = [
     [
         InlineKeyboardButton(
-            text="😍𝗦𝗨𝗠𝗠𝗢𝗡 𝗠𝗘😍",url="t.me/YuukiKonnoRobot?startgroup=true"
+            text="😍𝗦𝗨𝗠𝗠𝗢𝗡 𝗠𝗘😍",url="t.me/RimuruRobotBot?startgroup=true"
         ),
     ],
     [
@@ -75,17 +75,17 @@ buttons = [
          
     [
        InlineKeyboardButton(
-           text="💖𝗦𝗨𝗣𝗣𝗢𝗥𝗧💖", url="https://t.me/PigasusSupport"
+           text="💖𝗦𝗨𝗣𝗣𝗢𝗥𝗧💖", url="https://t.me/Rimurusupport"
          ),
     ],
         [
        InlineKeyboardButton(
-           text="💝𝗢𝗪𝗡𝗘𝗥💝", url="https://t.me/Me_Iz_Mad_Boi"
+           text="💝𝗢𝗪𝗡𝗘𝗥💝", url="https://t.me/hanyafatur"
          ),
      ],
      [
         InlineKeyboardButton(
-          text="💖𝗨𝗣𝗗𝗔𝗧𝗘𝗦💖", url="https://t.me/PigasusUpdates"
+          text="💖𝗨𝗣𝗗𝗔𝗧𝗘𝗦💖", url="https://t.me/Rimuruupdates"
         ),
        
      ],
@@ -93,7 +93,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [Yuuki!]("https://telegra.ph/file/72f58e5643fe6b39f5cca.jpg") 
+`Hey there! My name is` [Rimuru!]("https://telegra.ph/file/e686a77cc5a94c1ce4117.jpg") 
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """
@@ -217,13 +217,13 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="💞𝗦𝗨𝗣𝗣𝗢𝗥𝗧💞", url="https://t.me/PigasusSupport")
+                  InlineKeyboardButton(text="💞𝗦𝗨𝗣𝗣𝗢𝗥𝗧💞", url="https://t.me/Rimurusupport")
                   ],
                   [
-                  InlineKeyboardButton(text="💞𝗦𝗢𝗨𝗥𝗖𝗘💞", url="https://github.com/EmiliaAnimeBot")
+                  InlineKeyboardButton(text="💞PANTEk💞", url="https://telegra.ph/file/e686a77cc5a94c1ce4117.jpg")
                   ],
                   [
-                  InlineKeyboardButton(text="💘𝗢𝗪𝗡𝗘𝗥💘", url="https://t.me/Me_Iz_Mad_Boi")
+                  InlineKeyboardButton(text="💘𝗢𝗪𝗡𝗘𝗥💘", url="https://t.me/hanyafatur")
                   ]
                 ]
             ),
@@ -391,7 +391,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..👩‍💼 I'm *Yuuki*
-                 \nMy Source Code Can be Found at Github at this [Link](https://github.com/IzumiCypherX/EmiliaAnimeBot""",
+                 \nMy Source Code Can be Found at Github at this [JANGAN](https://telegra.ph/file/e686a77cc5a94c1ce4117.jpg""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -465,7 +465,7 @@ def get_help(update: Update, context: CallbackContext):
             InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="Back", callback_data="help_back"),
                                 InlineKeyboardButton(
-                                    text="Support", url="https://t.me/PigasusSupport"
+                                    text="Support", url="https://t.me/Rimuruupdates"
                                 )]]
             ),
         )
